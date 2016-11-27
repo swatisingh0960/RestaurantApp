@@ -69,7 +69,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+
 Team Size = 1
+This is a Solo Project, developed within the last few days of Submitting the Final Project
 
 ## Open-source libraries used
 
