@@ -1,16 +1,14 @@
 # Restaurant App
 # Project 3 - *Restaurant App*
 
-**Restaurant app** is an android app. For example: If a user wants to organize a party, the user, generally opens the Yelp App and checks all the places that are favourable for him/her to plan for lunch, dinner or Breakfast. With the "Restaurant" app, the user gets the list of the places,from the overall list, based on the current location.
+**Restaurant app** is an android app. For example: If a user wants to organize a party, the user, generally opens the Yelp App and checks all the places that are favourable for him/her to plan for lunch, dinner or Breakfast. With the "Restaurant" app, the user gets the list of the nearby restaurants,instead of the overall list, based on the current location.
 This app uses the Yelp API to retrieve information on the Ratings and Location, the Name of the Place and the type of Food i.e, if the Food is Mexican, or a Pizza place, or Fast Food or Wine Bars, or if Korean food is being served at the Restaurant.
 This android app uses device's location information to fetch nearby restaurants via Yelp API and get map information of restaurants.
-
-Time spent: **** hours spent in total
 
 Submitted by : Swati Singh
 
 App Flow - 
-User Sign up / Login in the App as a Person or Businesses, this second registered on Yelp as required
+User Sign up / Login in the App as a Person, this second registered on Yelp as required
 User 1: Any Person that would use the app to contact or get a service from any a business registered on Yelp. This user will use the email as “User Name” and define a password to Sign up on our App.Then, They can Log in on the app with the same information registered
 
 Flow for the User 1:
@@ -42,7 +40,7 @@ The following **optional** features are implemented:
 * [x] Implement Google Map functionalities
 * [x] Get location information from device.
 * [x] Analysis of response data from Yelp
-* [x] Enable [Swipe Refresh Layout](https://guides.codepath.com/android/Implementing-Pull-to-Refresh-Guide#listview-with-swiperefreshlayout), with Grid View.
+* [x] Enable [Swipe Refresh Layout](https://guides.codepath.com/android/Implementing-Pull-to-Refresh-Guide#listview-with-swiperefreshlayout),with Grid View.
 
 The following **bonus** features are implemented:
 * [x] Add support to show all restaurants in the same map
@@ -64,13 +62,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<[Video Walkthrough} />
+<img src='https://github.com/swatisingh0960/RestaurantApp/blob/master/ezgif.com-9fbb2dd2ff.gif'[Video Walkthrough} />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+Team Size = 1
 
 ## Open-source libraries used
 
@@ -80,7 +79,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2016] [Swati Singh and Cristian Sanchez]
+    Copyright [2016] [Swati Singh]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
