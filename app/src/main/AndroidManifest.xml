@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="comswatisingh0960.httpsgithub.restaurantmap">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".RestaurantApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="wantToKnow" />
+        <meta-data android:name="DATABASE" android:value="restaurant.db" />
+        <meta-data android:name="VERSION" android:value="2" />
+        <meta-data android:name="QUERY_LOG" android:value="true" />
+        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="comswatisingh0960.httpsgithub.restaurantmap" />
+        <activity android:name=".activities.MainActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".activities.StartActivity">
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity
+            android:name="comswatisingh0960.httpsgithub.restaurantmap.RestaurantListActivity"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".activity_restaurant_list_item"
+            android:label="@string/title_activity_activity_restaurant_list_item" >
+        </activity>
+        <activity
+            android:name=".restaurant_list_item"
+            android:label="@string/title_activity_restaurant_list_item" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAgX_t5aKNFFIi99y9zOcvrmmlg-x1KOnA" />
+        //REPLACE_WITH_YOUR_API_KEY
+        <activity
+            android:name="comswatisingh0960.httpsgithub.restaurantmap.RestaurantMapActivity"
+            android:label="@string/title_activity_restaurant_map" >
+        </activity>
+    </application>
+
+</manifest>
